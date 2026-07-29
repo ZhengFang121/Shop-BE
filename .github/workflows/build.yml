@@ -34,3 +34,4 @@ jobs:
         with:
           branch: build
           folder: deploy
+          single-commit: true
