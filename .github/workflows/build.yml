@@ -34,7 +34,3 @@ jobs:
         with:
           branch: build
           folder: deploy
-      # 步驟五：呼叫 render 部署
-      - name: Deploy
-        run: |
-          curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
